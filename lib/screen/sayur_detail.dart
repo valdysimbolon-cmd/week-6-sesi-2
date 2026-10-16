@@ -144,11 +144,11 @@ class SayurDetail extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Icon(
-                        FontAwesomeIcons.whatsapp,
-                        size: 32.sp,
-                        color: Colors.white,
-                      ),
+                    FaIcon(
+                      FontAwesomeIcons.whatsapp,
+                      size: 32.sp,
+                      color: Colors.white,
+                    ),
                       SizedBox(
                         width: 8.w,
                       ),
